@@ -9,6 +9,8 @@ end
 starship init fish | source
 enable_transience
 
+nvm use default --silent
+
 alias la='ls -la'
 alias vim='nvim'
 alias suv='sudo nvim'
