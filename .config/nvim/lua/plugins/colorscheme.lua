@@ -1,19 +1,4 @@
 return {
-  --[[
-  "rose-pine/neovim",
-  name = "rose-pine",
-  config = function()
-    ---@diagnostic disable: missing-fields
-    require("rose-pine").setup({
-      styles = {
-        bold = true,
-        italic = true,
-        transparency = true,
-      },
-    })
-    vim.cmd("colorscheme rose-pine")
-  end
-  ]] --
   "neanias/everforest-nvim",
   version = false,
   lazy = false,
@@ -50,6 +35,8 @@ return {
         hl["@keyword.repeat"] = { link = "RedItalic" }
         hl["@keyword.return"] = { link = "RedItalic" }
         hl["@keyword.storage"] = { link = "OrangeItalic" }
+
+        hl.NormalFloat = { fg = palette.fg, bg = palette.none }
       end,
     })
     require("everforest").load()
