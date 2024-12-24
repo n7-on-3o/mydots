@@ -35,6 +35,6 @@ return {
       }
     end)
 
-    require "config.telescope.multigrep".setup()
+    require "antropy.telescope.multigrep".setup()
   end,
 }

@@ -18,8 +18,9 @@ return {
       statuscolumn = { enabled = true },
       words = { enabled = true },
       styles = {
+        ---@diagnostic disable: missing-fields
         notification = {
-          -- wo = { wrap = true } -- Wrap notifications
+          wo = { wrap = true } -- Wrap notifications
         }
       }
     },
