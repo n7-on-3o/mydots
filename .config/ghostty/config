@@ -3,6 +3,8 @@ background-opacity = 0.67
 background-blur-radius = 20
 theme = Everforest Dark - Hard
 
+font-size = 13
+
 font-feature = calt
 font-feature = ss01
 font-feature = ss02
@@ -15,12 +17,12 @@ font-feature = ss08
 font-feature = ss09
 font-feature = liga
 
-font-family = Monaspace Neon
-font-family-bold = Monaspace Neon
-font-family-italic = Monaspace Radon
-font-family-bold-italic = Monaspace Radon
+font-family = Monaspace Neon Var
+font-family-bold = Monaspace Neon Var
+font-family-italic = Monaspace Radon Var
+font-family-bold-italic = Monaspace Radon Var
 
-font-style = Regular
+font-style = Medium
 font-style-bold = Bold
-font-style-italic = Regular
+font-style-italic = Medium
 font-style-bold-italic = Bold
