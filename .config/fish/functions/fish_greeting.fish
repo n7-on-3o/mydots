@@ -3,4 +3,5 @@ function fish_greeting
     fastfetch
   else
     echo 'fastfetch not installed!!'
+  end
 end
