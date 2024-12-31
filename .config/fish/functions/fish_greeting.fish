@@ -1,3 +1,6 @@
 function fish_greeting
-  fastfetch
+  if type -q fastfetch
+    fastfetch
+  else
+    echo 'fastfetch not installed!!'
 end

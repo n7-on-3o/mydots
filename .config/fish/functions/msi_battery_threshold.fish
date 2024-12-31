@@ -5,10 +5,11 @@ function msi_battery_threshold
     set th60 \xbc
     set th80 \xd0
     set th100 \xe4
-    set ec_path = /sys/kernel/debug/ec/ec0/io
+    #set ec_path = /sys/kernel/debug/ec/ec0/io
+    set ec_path = /dev/ec
     
-    modprobe -r ec_sys
-    modprobe ec_sys write_support=1
+    #modprobe -r ec_sys
+    #modprobe ec_sys write_support=1
 
     if test (count $argv) -eq 0
         set cth (dd skip=$offs count=1 if=$ec_path bs=1 status=none)
