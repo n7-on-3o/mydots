@@ -1,7 +1,8 @@
 #command = fastfetch
 background-opacity = 0.67
 background-blur-radius = 20
-theme = Everforest Dark - Hard
+theme = Dracula
+window-decoration = false
 
 font-size = 15
 

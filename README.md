@@ -1,2 +1,0 @@
-# mydots
-My dot files
