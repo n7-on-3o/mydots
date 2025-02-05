@@ -31,9 +31,6 @@ autoload -Uz compinit && compinit
 
 zinit cdreplay -q
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 # Keybindings
 bindkey -e
 bindkey '^p' history-search-backward
@@ -63,7 +60,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 export PATH=$PATH:~/.local/bin:~/.local/go/bin
 export XDG_PICTURES_DIR=~/Pictures
 
-eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/drac.toml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/zen.toml)"
 
 # General
 alias la='ls -la'

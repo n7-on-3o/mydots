@@ -1,7 +1,7 @@
 #command = fastfetch
 background-opacity = 0.67
 background-blur-radius = 20
-theme = Dracula
+theme = rose-pine
 window-decoration = false
 
 font-size = 15
