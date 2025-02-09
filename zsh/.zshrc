@@ -62,6 +62,8 @@ export XDG_PICTURES_DIR=~/Pictures
 
 eval "$(oh-my-posh init zsh --config $HOME/.config/oh-my-posh/zen.toml)"
 
+(( $+commands[fastfetch] )) && fastfetch
+
 # General
 alias la='ls -la'
 alias vim='nvim'
